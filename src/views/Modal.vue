@@ -21,7 +21,7 @@
   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
 </svg></div> <div class="info"> {{user.name}} </div>
               </div>
-              <div class=" email"> <a class="userDetails" :href="`mailto:${user.email}?subject='We are hiring!',&body=Hello${user.name}. We’d like to propose you an offer.`">
+              <div class=" email"> <a class="userDetails" :href="`mailto:${user.email}?subject='We are hiring!',&body=Hello ${user.name}. We’d like to propose you an offer.`">
                   <div class="icon"> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -85,7 +85,12 @@ console.log(data);
 
 .email{
     cursor: pointer;
-    color: rgb(8, 8, 232);
+    color: rgb(232, 8, 120);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .modal {
