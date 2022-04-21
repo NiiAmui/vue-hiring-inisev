@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon{
+  width: 2rem;
+}
+.info{
+  margin-left: 1rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card__inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+input{
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+button {
+  background-color: #8b4bf8; /* Green */
+  width: 100%;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+ background-color: #6935c3; /* Green */
+  color: white;
+}
+
+
+/* Style the top navigation bar */
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  /* Left and right column */
+  .column.side {
+    width: 15%;
+  }
+  /* Middle column */
+  .column.middle {
+    width: 85%;
+    margin-left: 15%;
+  }
+  /* Clear floats after the columns */
