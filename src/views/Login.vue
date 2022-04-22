@@ -74,5 +74,8 @@ export default {
         border: none;
         border-radius: 2px;
     }
+    button{
+        margin-top: 3rem;
+    }
 
 </style>
